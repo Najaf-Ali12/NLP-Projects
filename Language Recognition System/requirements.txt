@@ -1,9 +1,7 @@
 streamlit
-sklearn
+scikit-learn
 pandas
 numpy
 nltk
 spacy
-python
 matplotlib
-
