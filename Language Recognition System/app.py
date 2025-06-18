@@ -6,6 +6,13 @@ import os
 st.write("Current working directory:", os.getcwd())
 st.write("Available files:", os.listdir())
 
+[server]
+headless = true
+enableCORS = false
+runOnSave = true
+folder = "Language Recognition System"
+
+
 # Loading the model
 model = pickle.load(open("Language Detector Model.pkl", "rb"))
 
