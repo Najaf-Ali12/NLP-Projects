@@ -4,13 +4,13 @@ import re
 
 
 # Loading the model
-model=pickle.load(open("Language Detector Model.pkl","rb"))
+model=pickle.load(open("Language Recognition System/Language Detector Model.pkl","rb"))
 
 # Loading the bag of words
-bow=pickle.load(open("Bag of words.pkl","rb"))
+bow=pickle.load(open("Language Recognition System/Bag of words.pkl","rb"))
 
 # Loading the encoder
-encoder=pickle.load(open("LabelEncoder.pkl","rb"))
+encoder=pickle.load(open("Language Recognition System/LabelEncoder.pkl","rb"))
 
 # TITLE
 st.title("Language Detector App")
