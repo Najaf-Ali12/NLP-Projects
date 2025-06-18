@@ -6,7 +6,7 @@ import re
 
 
 # Loading the model
-model = pickle.load(open("Language Recognition System/Language Detector Model.pkl", "rb"))
+model = pickle.load(open("Language Recognition System\Language Detector Model.pkl", "rb"))
 
 
 # Loading the bag of words
